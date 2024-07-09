@@ -8,14 +8,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "framer-motion": "^11.2.13",
     "jsonwebtoken": "^9.0.2",
+    "mini-svg-data-uri": "^1.4.4",
     "mongoose": "^8.4.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.4.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

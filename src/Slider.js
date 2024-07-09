@@ -11,7 +11,7 @@ const Slider = ({ value, onChange }) => {
         step="0.1"
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="w-full"
+        className="w-full bg-yellow-500 text-yellow-500 accent-yellow-500 slider"
       />
     </div>
   );

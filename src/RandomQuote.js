@@ -1,5 +1,6 @@
 // RandomQuote.js
 import React, { useEffect, useState } from "react";
+import { Button } from "./ui/moving-border.tsx";
 
 const RandomQuote = () => {
   const [quote, setQuote] = useState("");
@@ -17,7 +18,18 @@ const RandomQuote = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <div className="mt-4 text-center">{quote}</div>;
+  return (
+    <>
+      <div className=" text-center h-44px">
+        <Button
+          borderRadius="1.75rem"
+          className="bg-black dark:bg-slate-900 text-yellow-500 dark:text-white border-neutral-200 dark:border-slate-800 "
+        >
+          <div>{quote}</div>
+        </Button>
+      </div>
+    </>
+  );
 };
 
 export default RandomQuote;
