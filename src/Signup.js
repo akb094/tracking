@@ -37,7 +37,7 @@ const Signup = () => {
     }
     // Assume signup is successful
     alert("User created successfully");
-    navigate("/");
+    navigate("/Tracking");
   };
 
   return (
@@ -117,7 +117,7 @@ const Signup = () => {
           </div>
           <p className="mt-4 text-center">
             Have an account?{" "}
-            <Link to="/" className="text-yellow-500">
+            <Link to="/Login" className="text-yellow-500">
               Signin
             </Link>
           </p>
