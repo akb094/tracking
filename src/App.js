@@ -1,10 +1,10 @@
 // App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./Login";
-import Signup from "./Signup";
-import Tracking from "./Tracking";
-import Dashboard from "./Dashboard.js"; // Import the LandingPage component
+import Login from "./components/Login";
+import Signup from "./components/Signup";
+import Tracking from "./components/Tracking";
+import Dashboard from "./components/Dashboard"; // Import the LandingPage component
 
 const App = () => {
   return (

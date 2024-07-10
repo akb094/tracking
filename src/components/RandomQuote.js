@@ -1,6 +1,6 @@
 // RandomQuote.js
 import React, { useEffect, useState } from "react";
-import { Button } from "./ui/moving-border.tsx";
+import { Button } from "../ui/moving-border.tsx";
 
 const RandomQuote = () => {
   const [quote, setQuote] = useState("");
