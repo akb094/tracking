@@ -1,6 +1,4 @@
-// LandingPage.js
 import React from "react";
-//import Image from "next/image";
 import backgroundImage from "../pic.jpg";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card.tsx";
 import { Link } from "react-router-dom";

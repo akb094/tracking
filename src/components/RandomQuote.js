@@ -1,4 +1,3 @@
-// RandomQuote.js
 import React, { useEffect, useState } from "react";
 import { Button } from "../ui/moving-border.tsx";
 
